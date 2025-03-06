@@ -38,3 +38,28 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+.square{
+  width: 50%;
+  padding-top: 50%;
+  position: relative;
+  top: 0%; /*追記*/
+  left: 30%; /*追記*/
+
+}
+.red{
+  background-color: #c30;
+  width: 40%;
+  height: 20%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+
+}
+.blue{
+  background-color: blue;
+  width: 40%;
+  height: 20%;
+  position: absolute;
+  top: 45%;
+  left: 0%;
+}
